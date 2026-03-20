@@ -2512,3 +2512,378 @@
 2026-03-20T11:28:48.210+01:00  INFO 3509 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
 2026-03-20T11:29:18.032+01:00  INFO 3509 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
 2026-03-20T11:29:18.036+01:00  INFO 3509 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:17:01.436+01:00  INFO 13374 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : Starting ExpensetrackerApplication using Java 25.0.2 with PID 13374 (/Users/salt-dev/salt/actualCourse/Individualprojects/ExpenseTracker/expensetracker/target/classes started by salt-dev in /Users/salt-dev/salt/actualCourse/Individualprojects/ExpenseTracker/expensetracker)
+2026-03-20T13:17:01.438+01:00  INFO 13374 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T13:17:02.940+01:00  WARN 13374 --- [expensetracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-20T13:17:03.105+01:00  INFO 13374 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : Started ExpensetrackerApplication in 1.878 seconds (process running for 2.33)
+2026-03-20T13:17:19.746+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:17:19.867+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:17:44.833+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:17:44.849+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:21:07.358+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:21:07.382+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:21:38.791+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:21:38.800+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:21:41.450+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:21:41.464+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:23:05.179+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:23:05.189+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:23:33.928+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : POST method to create multiple Expense objects at once called
+2026-03-20T13:23:46.498+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:23:46.515+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:12.005+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:19.537+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:25.421+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:29.278+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:33.701+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:38.512+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:42.461+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:47.879+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:50.934+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:28:59.560+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:29:21.191+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:29:21.202+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:29:22.898+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:29:26.529+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:31:59.736+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:31:59.750+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:32:14.930+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:32:14.941+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:33:23.416+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:33:23.428+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:40:17.608+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:40:17.622+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:42:28.981+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:42:44.882+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:42:46.116+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:43:10.568+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:43:10.578+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:43:50.995+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:43:51.004+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:43:58.990+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:47:53.763+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:47:53.782+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:56:20.275+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T13:56:20.294+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:03:21.773+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:03:21.795+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:03:33.293+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:03:33.304+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:03:43.767+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:03:43.774+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:04:04.900+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:04:04.912+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:04:30.419+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:04:30.433+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:04:59.102+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:04:59.115+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:11.869+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:11.886+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:41.755+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:41.765+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:43.840+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:43.849+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:59.140+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:05:59.148+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:06:46.518+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:06:46.527+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:24.400+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:24.413+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:28.843+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:28.852+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:35.658+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:35.672+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:45.948+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:08:45.958+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:09:12.235+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:09:12.240+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:09:49.070+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:09:49.086+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:10:06.574+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:10:06.585+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:10:26.117+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:10:26.129+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:10:29.143+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:10:29.149+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:28.812+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:28.830+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:39.074+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:39.080+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:48.632+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:48.651+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:49.814+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:49.824+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:53.447+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:14:53.455+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:15:06.268+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:15:06.276+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:15:08.736+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:15:08.746+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:15:23.259+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:15:23.269+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:16:22.797+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:16:22.805+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:16:54.947+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:16:54.955+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:20.094+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:20.117+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:28.065+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:28.072+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:40.282+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:40.289+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:43.047+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:43.060+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:50.640+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:50.647+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:55.310+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:18:55.319+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:19:38.194+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:19:38.208+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:09.948+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:09.958+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:11.979+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:11.992+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:13.187+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:13.201+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:17.816+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:17.824+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:28.064+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:21:28.076+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:22:08.883+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:22:08.893+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:22:57.810+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:22:57.817+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:22:58.988+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:22:59.000+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:08.908+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:08.914+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:15.916+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:15.922+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:21.137+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:21.145+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:30.620+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:30.628+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:32.784+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:32.794+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:44.799+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:44.810+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:48.930+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:48.938+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:50.201+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:23:50.208+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:11.551+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:11.563+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:19.521+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:19.529+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:21.377+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:21.384+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:29.748+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:29.756+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:34.605+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:34.612+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:38.097+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:38.106+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:39.808+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:39.816+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:43.342+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:43.354+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:51.807+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:24:51.816+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:24.642+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:24.650+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:27.176+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:27.186+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:30.831+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:30.842+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:41.634+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:41.644+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:52.152+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:52.158+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:57.732+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:25:57.738+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:00.042+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:00.048+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:02.930+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:02.940+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:05.666+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:05.676+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:12.582+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:12.590+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:28.642+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:28.648+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:30.523+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:30.529+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:46.462+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:46.471+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:48.456+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:48.463+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:49.481+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:49.487+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:52.244+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:52.253+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:55.160+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:55.170+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:58.383+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:26:58.402+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:02.052+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:02.062+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:20.012+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:20.022+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:24.646+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:24.652+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:35.885+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:27:35.894+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:28:15.773+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:28:15.782+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:28:20.043+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:28:20.049+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:33:34.569+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:33:34.577+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:34:19.314+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:34:19.324+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:34:40.810+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:34:40.821+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:04.609+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:04.614+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:12.877+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:12.884+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:25.181+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:25.187+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:31.160+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:31.167+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:32.854+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:32.860+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:36.393+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:35:36.399+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:36:23.369+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:36:23.378+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:37:25.209+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:37:25.226+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:37:30.834+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:37:30.839+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:38:42.485+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:38:42.493+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:39:17.710+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:39:17.717+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:39:19.685+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:39:19.692+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:42:09.906+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:42:09.917+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:42:12.757+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:42:12.766+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:42:21.557+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:42:21.565+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:43:23.624+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:43:23.629+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:44:35.399+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:44:35.406+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:44:39.279+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:44:39.284+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:45:11.282+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:45:11.286+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:54:47.126+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:54:47.136+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:55:06.320+01:00  WARN 13374 --- [expensetracker] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.jakub.expensetracker.model.ExpenseCategory` from String "ANY": not one of the values accepted for Enum class: [CLOTHING, TRANSPORT, UTILITIES, FOOD, ENTERTAINMENT, RENT]]
+2026-03-20T14:55:26.205+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:55:26.209+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:55:49.168+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : POST method to create an Expense object called
+2026-03-20T14:58:31.639+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:58:31.643+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:58:41.760+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:58:41.767+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:58:52.851+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:58:52.855+01:00  INFO 13374 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:18.151+01:00  INFO 23001 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : Starting ExpensetrackerApplication using Java 25.0.2 with PID 23001 (/Users/salt-dev/salt/actualCourse/Individualprojects/ExpenseTracker/expensetracker/target/classes started by salt-dev in /Users/salt-dev/salt/actualCourse/Individualprojects/ExpenseTracker/expensetracker)
+2026-03-20T14:59:18.153+01:00  INFO 23001 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T14:59:19.524+01:00  WARN 23001 --- [expensetracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-20T14:59:19.674+01:00  INFO 23001 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : Started ExpensetrackerApplication in 1.712 seconds (process running for 2.111)
+2026-03-20T14:59:29.295+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:29.411+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:30.892+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:30.902+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:53.235+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : POST method to create multiple Expense objects at once called
+2026-03-20T14:59:56.341+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:56.354+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:57.169+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T14:59:57.178+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:00:12.311+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:00:12.319+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:01:21.843+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:01:21.852+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:01:47.540+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:01:47.552+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:02:02.507+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:02:02.519+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:05:49.738+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:05:49.746+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:06:17.869+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : POST method to create an Expense object called
+2026-03-20T15:07:27.141+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:07:27.149+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:10:54.724+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:10:54.734+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:11:05.340+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:11:05.349+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:12:04.388+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:12:04.396+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:17:12.257+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:17:12.267+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:19:28.262+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:19:28.269+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:19:34.352+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : DELETE method by ID called
+2026-03-20T15:19:34.385+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : Expense object deleted
+2026-03-20T15:19:46.574+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : PUT method called to update id
+2026-03-20T15:19:46.579+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : Expense exists
+2026-03-20T15:19:46.579+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : New values set for object
+2026-03-20T15:19:54.502+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : PUT method called to update id
+2026-03-20T15:19:54.506+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : Expense exists
+2026-03-20T15:19:54.507+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : New values set for object
+2026-03-20T15:19:57.788+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:19:57.796+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-9] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:20:05.492+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : DELETE method by ID called
+2026-03-20T15:20:05.497+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : Expense object deleted
+2026-03-20T15:20:07.404+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:20:07.410+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:24:40.911+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:24:40.921+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:25:20.698+01:00  WARN 23001 --- [expensetracker] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.jakub.expensetracker.model.ExpenseCategory` from String "ANY": not one of the values accepted for Enum class: [CLOTHING, TRANSPORT, UTILITIES, FOOD, ENTERTAINMENT, RENT]]
+2026-03-20T15:25:23.444+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:25:23.450+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:26:26.994+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : DELETE method by ID called
+2026-03-20T15:26:27.001+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : Expense object deleted
+2026-03-20T15:26:29.327+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:26:29.334+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:26:36.212+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : DELETE method by ID called
+2026-03-20T15:26:36.217+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : Expense object deleted
+2026-03-20T15:26:37.677+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:26:37.683+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:27:03.921+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : POST method to create an Expense object called
+2026-03-20T15:33:13.022+01:00  WARN 23001 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s919ms).
+2026-03-20T15:36:35.675+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:36:35.682+01:00  INFO 23001 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:41:27.778+01:00  INFO 24562 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : Starting ExpensetrackerApplication using Java 25.0.2 with PID 24562 (/Users/salt-dev/salt/actualCourse/Individualprojects/ExpenseTracker/expensetracker/target/classes started by salt-dev in /Users/salt-dev/salt/actualCourse/Individualprojects/ExpenseTracker/expensetracker)
+2026-03-20T15:41:27.781+01:00  INFO 24562 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T15:41:29.343+01:00  WARN 24562 --- [expensetracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-20T15:41:29.500+01:00  INFO 24562 --- [expensetracker] [main] c.j.e.ExpensetrackerApplication          : Started ExpensetrackerApplication in 1.981 seconds (process running for 2.348)
+2026-03-20T15:41:35.400+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:41:35.518+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:42:28.986+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-4] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:42:28.995+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:50:41.165+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-8] c.j.e.controller.ExpenseController       : POST method to create multiple Expense objects at once called
+2026-03-20T15:50:49.997+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-10] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:50:50.009+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:51:14.445+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : POST method to create an Expense object called
+2026-03-20T15:51:36.150+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : PUT method called to update id
+2026-03-20T15:51:36.164+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : Expense exists
+2026-03-20T15:51:36.165+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-5] c.j.e.controller.ExpenseController       : New values set for object
+2026-03-20T15:51:40.972+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-6] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:51:40.981+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-7] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:51:54.935+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : DELETE method by ID called
+2026-03-20T15:51:54.945+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-1] c.j.e.controller.ExpenseController       : Expense object deleted
+2026-03-20T15:51:56.854+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-2] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T15:51:56.861+01:00  INFO 24562 --- [expensetracker] [http-nio-8080-exec-3] c.j.e.controller.ExpenseController       : GET request to list expenses called
+2026-03-20T16:01:14.769+01:00  WARN 24562 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s82ms).
+2026-03-20T16:01:59.942+01:00  WARN 24562 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s173ms).
+2026-03-20T16:06:11.645+01:00  WARN 24562 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m11s703ms).
+2026-03-20T16:23:11.691+01:00  WARN 24562 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m46ms).
+2026-03-20T16:24:54.910+01:00  WARN 24562 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s317ms).
+2026-03-20T16:27:33.714+01:00  WARN 24562 --- [expensetracker] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s805ms).
